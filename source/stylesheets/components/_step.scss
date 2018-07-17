@@ -1,0 +1,25 @@
+.step-section {
+  padding: 16px;
+  background-color: $light-gray;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  margin: 24px 0;
+  border-radius: 4px;
+}
+
+
+.step-title {
+  text-align: center;
+  background-color: $dark-bg;
+  border-radius: 4px;
+  padding: 8px;
+  color: $white;
+  margin-bottom: 24px;
+  h2 {
+    margin: 0;
+    font-size: 25px;
+  }
+}
+
+.step-content {
+  padding: 0 16px;
+}

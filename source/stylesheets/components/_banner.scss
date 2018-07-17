@@ -13,16 +13,16 @@
   color: $white;
   h1 {
     font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
   }
   strong {
     box-shadow: inset 0px -18px $red;
+    padding: 0 5px;
   }
   p {
     opacity: .8;
   }
 }
-
-
 
 .banner-info {
   flex: 1 0 50%;
