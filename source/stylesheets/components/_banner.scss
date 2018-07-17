@@ -1,0 +1,38 @@
+.banner {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  display: flex;
+  align-items: flex-start;
+  padding: 50px;
+  color: $white;
+  h1 {
+    font-size: 40px;
+  }
+  strong {
+    box-shadow: inset 0px -18px $red;
+  }
+  p {
+    opacity: .8;
+  }
+}
+
+
+
+.banner-info {
+  flex: 1 0 50%;
+}
+
+.banner-img {
+  flex: 0 0 50%;
+  padding-left: 50px;
+  img {
+    width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+}

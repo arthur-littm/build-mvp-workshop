@@ -1,15 +1,16 @@
 ---
-title: Le Wagon - Middleman
+title: Le Wagon - Build your business landing page
 ---
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<div class="banner" style="background-image: url(<%= image_path "background.png" %>)">
+  <div class="banner-content container">
+    <div class="banner-info">
+      <h1>Build your business landing page with <strong>le wagon</strong></h1>
+      <p>Welcome to Le Wagon’s “code your business landing page” workshop, you will find below the different steps to take and some code snippets that you can copy/paste to win some time.</p>
+    </div>
+
+    <div class="banner-img hidden-xs hidden-sm">
+      <%= image_tag "landing_page.png" %>
+    </div>
   </div>
 </div>
